@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.kol {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px;
+}
+.kol .kil {
+  display: flex;
+  gap: 20px;
+}
+
+.ju {
+  background-color: #FEF8F1;
+}
+.ju .jil {
+  text-align: center;
+}
+.ju .jil button {
+  background-color: #E6F2B4;
+  height: 40px;
+  border: none;
+  border-radius: 30px;
+}
+
+.box1 {
+  text-align: center;
+  width: 325px;
+  height: 300px;
+  margin: 10px;
+}
+.box1 h3 {
+  color: #0B4A72;
+}
+
+.box2 {
+  text-align: center;
+  width: 325px;
+  height: 300px;
+  margin: 10px;
+}
+.box2 h3 {
+  color: #0B4A72;
+}
+
+.box3 {
+  text-align: center;
+  width: 325px;
+  height: 300px;
+  margin: 10px;
+}
+.box3 h3 {
+  color: #0B4A72;
+}
+
+.lol h1 {
+  text-align: center;
+}
+.lol .for {
+  display: flex;
+  justify-content: space-around;
+}
+
+.yup {
+  display: flex;
+  justify-content: space-around;
+}
+.yup button {
+  position: relative;
+  bottom: 20px;
+  height: 40px;
+  border-radius: 30px;
+  border: none;
+}
+.yup .xob1 {
+  text-align: center;
+  width: 495px;
+  height: 300px;
+  margin: 10px;
+}
+.yup .xob1 h3 {
+  color: #0B4A72;
+}
+.yup .xob2 {
+  text-align: center;
+  width: 495px;
+  height: 300px;
+  margin: 10px;
+}
+.yup .xob2 h3 {
+  color: #0B4A72;
+}
+.yup .xob3 {
+  text-align: center;
+  width: 495px;
+  height: 300px;
+  margin: 10px;
+}
+.yup .xob3 h3 {
+  color: #0B4A72;
+}
+
+.jilwidth {
+  width: 352px;
+  text-align: center;
+}
+
+.kj {
+  text-align: center;
+}
+
+.jk {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.hr {
+  display: flex;
+  height: 100px;
+  justify-content: space-around;
+  font-size: 24px;
+}
+.hr .top {
+  text-align: center;
+  width: 420px;
+}
+.hr img {
+  position: relative;
+  bottom: 100px;
+}
+
+.koi {
+  text-align: center;
+}
+.koi .jul {
+  background-color: rgba(240, 247, 206, 0.2117647059);
+}
+.koi .jul .hj {
+  background-color: rgba(240, 247, 206, 0.2117647059), 12px;
+  position: relative;
+  left: 400px;
+}
+.koi .lolo {
+  display: flex;
+  justify-content: space-around;
+}
+.koi .lolo button {
+  border: none;
+  background-color: white;
+}
+.koi .hu {
+  height: 395px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFFAF4;
+  font-size: 30px;
+}
+.koi .hu button {
+  background-color: #E6F2B4;
+  border: none;
+  height: 30px;
+  border-radius: 30px;
+}
+
+.ht {
+  background-color: #FFFAF4;
+}
+.ht .kop {
+  display: flex;
+  justify-content: space-around;
+}
+.ht .kop .jy {
+  display: flex;
+  gap: 100px;
+}
+.ht .ko {
+  display: flex;
+  justify-content: start;
+  margin-left: 100px;
+}
+.ht .ko .py {
+  display: flex;
+  gap: 100px;
+}
+
+.io {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+.io .koo {
+  height: 47px;
+}/*# sourceMappingURL=scsc.css.map */

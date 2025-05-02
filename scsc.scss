@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.kol {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+
+    .kil {
+        display: flex;
+        gap: 20px;
+
+    }
+}
+
+.ju {
+    background-color: #FEF8F1;
+
+    .jil {
+        text-align: center;
+
+        button {
+            background-color: #E6F2B4;
+            height: 40px;
+            border: none;
+            border-radius: 30px;
+
+        }
+
+    }
+}
+
+@for $i from 1 through 3 {
+    .box#{$i} {
+        text-align: center;
+        width: 325px;
+        height: 300px;
+
+        margin: 10px;
+
+        h3 {
+            color: #0B4A72;
+        }
+    }
+}
+
+.lol {
+    h1 {
+        text-align: center;
+    }
+
+    .for {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+
+.yup {
+    display: flex;
+    justify-content: space-around;
+
+    button {
+        position: relative;
+        bottom: 20px;
+        height: 40px;
+        border-radius: 30px;
+        border: none;
+    }
+
+    @for $i from 1 through 3 {
+        .xob#{$i} {
+            text-align: center;
+            width: 495px;
+            height: 300px;
+
+            margin: 10px;
+
+            h3 {
+                color: #0B4A72;
+            }
+        }
+    }
+}
+
+$map :(width: 352px,
+);
+
+
+@each $name , $width in $map {
+    .jil#{$name} {
+        width: $width;
+        text-align: center;
+    }
+}
+
+
+.kj {
+
+    text-align: center;
+
+}
+
+.jk {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hr {
+    display: flex;
+    height: 100px;
+    justify-content: space-around;
+    font-size: 24px;
+
+    .top {
+        text-align: center;
+        width: 420px;
+    }
+
+    img {
+        position: relative;
+        bottom: 100px;
+    }
+}
+
+.koi {
+    text-align: center;
+
+
+    $list: #F0F7CE36, 12px;
+
+    .jul {
+        background-color: #F0F7CE36;
+
+        .hj {
+            background-color: $list;
+            position: relative;
+            left: 400px;
+
+        }
+    }
+
+    .lolo {
+        display: flex;
+        justify-content: space-around;
+
+        button {
+            border: none;
+            background-color: white;
+        }
+    }
+
+    .hu {
+        height: 395px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #FFFAF4;
+        font-size: 30px;
+
+        .jt {}
+
+        button {
+            background-color: #E6F2B4;
+            border: none;
+            height: 30px;
+            border-radius: 30px;
+        }
+    }
+}
+
+.ht {
+    background-color: #FFFAF4;
+
+    .kop {
+        display: flex;
+        justify-content: space-around;
+
+        .jy {
+            display: flex;
+            gap: 100px;
+        }
+    }
+
+    .ko {
+       display: flex;
+       justify-content: start;
+       margin-left: 100px;
+        .py {
+            display: flex;
+            gap: 100px;
+        }
+    }
+}
+.io{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+
+    .koo{
+        height: 47px;
+    }
+}
